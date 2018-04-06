@@ -1,0 +1,27 @@
+{
+  "name": "arrayiterator/typed-array",
+  "license": "MIT",
+  "description": "Typed Array",
+  "authors": [
+    {
+      "name": "ArrayIterator",
+      "role": "Developer",
+      "email": "ArrayIterator@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">= 7.1",
+    "ext-iconv": "*"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "3.*"
+  },
+  "config": {
+    "optimize-autoloader": true
+  },
+  "autoload": {
+    "psr-4": {
+      "ArrayIterator\\TypedArray\\" : "src/TypedArray/"
+    }
+  }
+}
